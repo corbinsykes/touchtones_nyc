@@ -1,0 +1,195 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+body {
+  color: #fff;
+  background-color: #000;
+  font-family: 'Poiret One', sans-serif;
+  text-decoration: uppercase; }
+
+.red {
+  background-color: #fff;
+  max-height: 100vh;
+  padding-right: 0; }
+
+@-webkit-keyframes bgImagePulse {
+  10% {
+    background-image: url(../img/touchtones_1.jpg); }
+
+  25% {
+    background-image: url(../img/touchtones_3.jpg); }
+
+  50% {
+    background-image: url(../img/touchtones_4.jpg); }
+
+  75% {
+    background-image: url(../img/touchtones_5.jpg); }
+
+  100% {
+    background-image: url(../img/touchtones_6.jpg); } }
+
+@keyframes bgImagePulse {
+  10% {
+    background-image: url(../img/touchtones_1.jpg); }
+
+  25% {
+    background-image: url(../img/touchtones_3.jpg); }
+
+  50% {
+    background-image: url(../img/touchtones_4.jpg); }
+
+  75% {
+    background-image: url(../img/touchtones_5.jpg); }
+
+  100% {
+    background-image: url(../img/touchtones_6.jpg); } }
+
+.splash {
+  -webkit-animation: bgImagePulse 6s infinite;
+  animation: bgImagePulse 6s infinite;
+  height: 600px;
+  background-size: 100%;
+  background-repeat: no-repeat; }
+
+.splash-img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.blue {
+  max-height: 100vh; }
+
+.logo-container {
+  text-align: center; }
+
+.logo {
+  width: 100%; }
+  @media screen and (min-width: 768px) {
+    .logo {
+      margin-top: 100px; } }
+
+audio {
+  background-color: transparent; }
+
+.touchtones {
+  width: 100%; }
+
+#instagram {
+  color: #000;
+  background-color: #fff; }
+
+.iframe-container {
+  text-align: center;
+  position: relative;
+  top: 15px;
+  border: 5px solid #000;
+  height: 240px;
+  width: 240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 3px; }
+
+@-webkit-keyframes bgColorPulse {
+  0% {
+    background-color: #f00; }
+
+  33% {
+    background-color: #ff9325; }
+
+  67% {
+    background-color: #2aa789; }
+
+  100% {
+    background-color: #2a90d6; } }
+
+@keyframes bgColorPulse {
+  0% {
+    background-color: #f00; }
+
+  33% {
+    background-color: #ff9325; }
+
+  67% {
+    background-color: #2aa789; }
+
+  100% {
+    background-color: #2a90d6; } }
+
+@-webkit-keyframes colorPulse {
+  0% {
+    color: #f00; }
+
+  33% {
+    color: #ff9325; }
+
+  67% {
+    color: #2aa789; }
+
+  100% {
+    color: #2a90d6; } }
+
+@keyframes colorPulse {
+  0% {
+    color: #f00; }
+
+  33% {
+    color: #ff9325; }
+
+  67% {
+    color: #2aa789; }
+
+  100% {
+    color: #2a90d6; } }
+
+#music {
+  -webkit-animation: bgColorPulse 6s infinite alternate;
+  animation: bgColorPulse 6s infinite alternate; }
+
+.soundcloud-icon {
+  padding-top: 10dpx; }
+
+#dates .fa, #video .fa, #instagram .fa {
+  -webkit-animation: colorPulse 6s infinite alternate;
+  animation: colorPulse 6s infinite alternate; }
+
+#dates {
+  background-color: #000; }
+  #dates h6 {
+    line-height: 0;
+    -webkit-animation: colorPulse 6s infinite alternate;
+    animation: colorPulse 6s infinite alternate; }
+  #dates h5 {
+    line-height: 0;
+    padding-bottom: 15px; }
+
+#video {
+  background-color: #000; }
+
+#links {
+  background-color: #000; }
+
+.contact-links {
+  list-style-type: none;
+  float: left; }
+
+.social-links {
+  list-style-type: none;
+  float: right;
+  padding-top: 25px; }
+  .social-links li {
+    display: inline;
+    margin-left: 10px; }
+
+.content-box {
+  text-transform: uppercase;
+  border: 1px solid #fff; }
+  @media screen and (max-width: 768px) {
+    .content-box {
+      height: 0;
+      text-align: center;
+      padding-bottom: 100%; } }
+  @media screen and (min-width: 768px) {
+    .content-box {
+      height: 0;
+      padding-bottom: 50%; } }
